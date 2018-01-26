@@ -21,7 +21,7 @@
 		<GameItems>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
-		<GameWindowResolution x="1024" y="768"/>
+		<GameWindowResolution x="1920" y="1080"/>
 		<GameCursors>
 			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="15" LinkAny="F"/>
