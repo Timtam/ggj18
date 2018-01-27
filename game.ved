@@ -2286,7 +2286,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Door to R02" id="49" order="0" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Door to R02" id="49" order="2" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="212" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="472" y="344"/>
@@ -2546,7 +2546,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Sink" id="60" order="2" lastModified="3" ObjectDirection="45" ObjectCenter="433" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Sink" id="60" order="1" lastModified="3" ObjectDirection="45" ObjectCenter="433" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="241" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="894" y="408"/>
@@ -2632,7 +2632,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Soap" id="63" order="1" lastModified="3" ObjectDirection="-1" ObjectCenter="466" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Soap" id="63" order="0" lastModified="3" ObjectDirection="-1" ObjectCenter="466" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="252" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="940" y="445"/>
@@ -4832,16 +4832,16 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="Unnamed" id="28" order="28" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="Unnamed" id="28" order="28" lastModified="3" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="1" path="UI/Cursor_LookInteract.png" Transparency="2">
-					<position x="0" y="0"/>
+					<position x="29" y="18"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="18" y="37"/>
+			<AnimationCenter x="32" y="55"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
