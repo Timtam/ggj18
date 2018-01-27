@@ -108,7 +108,7 @@
 	</Loadings>
 	<Characters newId="2" versionedId="1" tableId="0">
 		<Character name="Mary" id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
-			<CharacterName parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterName parentLink="T" id="185" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="3" tableId="1" LinkAny="F"/>
@@ -3223,17 +3223,17 @@
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="44" versionedId="43" tableId="9">
-		<Animation name="front" id="0" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+	<Animations newId="42" versionedId="43" tableId="9">
+		<Animation name="front" id="4" order="3" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character_walking.png" Transparency="-1">
+				<sprite name="" pause="-1" path="Character/marry1.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="60" y="138"/>
+			<AnimationCenter x="73" y="345"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -3241,16 +3241,16 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="back" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="back" id="5" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character_walking.png" Transparency="-1">
+				<sprite name="" pause="-1" path="Character/marry3.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="60" y="138"/>
+			<AnimationCenter x="58" y="336"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -3258,16 +3258,16 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="left" id="2" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="left" id="6" order="2" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character_walking.png" Transparency="-1">
+				<sprite name="" pause="-1" path="Character/marry2.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="60" y="138"/>
+			<AnimationCenter x="56" y="353"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -3275,84 +3275,16 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="right" id="3" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="right" id="7" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character_walking.png" Transparency="-1">
+				<sprite name="" pause="-1" path="Character/marry1.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="60" y="138"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="front" id="4" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character.png" Transparency="-1">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="74" y="129"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="back" id="5" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character.png" Transparency="-1">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="74" y="129"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="left" id="6" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character.png" Transparency="-1">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="74" y="129"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="right" id="7" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/character.png" Transparency="-1">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="74" y="129"/>
+			<AnimationCenter x="72" y="345"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -3717,7 +3649,7 @@
 			</AnimationPauses>
 		</Animation>
 	</Animations>
-	<Conditions newId="22" versionedId="21" tableId="10">
+	<Conditions newId="20" versionedId="21" tableId="10">
 		<Condition name="Condition0" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -3997,7 +3929,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="185" versionedId="163" tableId="14">
+	<Texts newId="186" versionedId="163" tableId="14">
 		<Text name="Unnamed" id="29" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Splash" path="" int="0"/>
@@ -4213,8 +4145,13 @@
 				<text Text="Das könnte klappen." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="185" order="185" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
-	<Cursors newId="8" versionedId="7" tableId="15">
+	<Cursors newId="7" versionedId="7" tableId="15">
 		<Cursor name="Arrow" id="0" order="0" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="10" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="11" tableId="9" LinkAny="F"/>
@@ -4244,12 +4181,8 @@
 		</CommentSet>
 	</CommentSets>
 	<Outfits newId="2" versionedId="1" tableId="17">
-		<Outfit name="Outfit" id="0" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
+		<Outfit name="Outfit" id="0" order="0" lastModified="1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
 			<OutfitWalkAnimations>
-				<Link parentLink="T" id="0" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="1" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="2" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="3" tableId="9" LinkAny="F"/>
 			</OutfitWalkAnimations>
 			<OutfitTalkAnimations>
 			</OutfitTalkAnimations>
@@ -4317,7 +4250,7 @@
 			<CommentSetEntryCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</CommentSetEntry>
 	</CommentSetEntries>
-	<AnimationFrames newId="1" versionedId="0" tableId="28">
+	<AnimationFrames newId="4" versionedId="0" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="4" versionedId="3" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1">
