@@ -1,0 +1,23 @@
+[X] Papierrascheln: Room1/paper.ogg
+[X] Backstein aus Wand ziehen: Room1/stone.ogg
+[X] Funkgerät krtsch: Walkie_Talkie/comm.ogg
+[X] Metalltür geht auf: Room1/metal_door_open.ogg
+[X] Licht geht schlagartig aus: Room1/light_off.ogg
+[X] Licht geht an: Room3/light_on.ogg
+[X] Schritte (Stein): footsteps.ogg
+[X] Gefängnisambiente: Ambience/dungeon.ogg
+[X] Metall bricht ab: Room3/metal_break.ogg
+[X] Duschgeräusche, großer Raum: Ambience/shower.ogg
+[X] Wäscherascheln: Room5/cloth_rustle.ogg
+[X] Mülleimer durchwühlen: Room4/trashcan_search.ogg
+[X] Mülleimer aufnehmen: Room4/trashcan_take.ogg
+[X] Sache in die Tasche stecken: move_to_inventory.ogg
+[X] Schwere Metalltür: Room3/heavy_metal_door_open.ogg
+[X] Wäscheschacht klettern: Room5/laundrey_chute_climb.ogg 
+[X] Aufprall Mensch auf Wäsche: Room5/laundrey_chute_fall.ogg
+[X] Poster von Wand reißen (Klebestreifen?): Room1/tear_down_poster.ogg
+[X] Funkgerät falscher Kanal (Rauschen): Walkie_Talkie/open_channel.ogg
+[X] Metall biegen (Stromkasten öffnen): Room3/junction_box.ogg
+[X] Eimer mit Wasser füllen: Room6/trashcan_fill.ogg
+[X] Stromkasten reparieren: Room3/junction_box_repair.ogg
+[X] Mensch rutscht in Pfütze aus: Room4/human_slipping_out.ogg
