@@ -17,6 +17,7 @@
 		</GameInterfaces>
 		<GameFontLinks>
 			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="3" LinkAny="F"/>
 		</GameFontLinks>
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
@@ -47,7 +48,7 @@
 		<GameParticleContainerLinks>
 		</GameParticleContainerLinks>
 		<GameLeftClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		<GameActionTextFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		<GameActionTextFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
 		<GameActionTextRect top="-1" left="-1" bottom="-3" right="-3"/>
 		<GameScriptLinks>
 		</GameScriptLinks>
@@ -101,7 +102,7 @@
 				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
-			<CharacterFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+			<CharacterFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
 			<CharacterCurrentOutfit parentLink="F" id="0" tableId="17" LinkAny="F"/>
 			<CharacterCurrentCommentSet parentLink="F" id="0" tableId="16" LinkAny="F"/>
 			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
@@ -120,8 +121,8 @@
 			</CharacterValues>
 			<CharacterConditions>
 			</CharacterConditions>
-			<CharacterActiveDialogFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
-			<CharacterInactiveDialogFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+			<CharacterActiveDialogFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
+			<CharacterInactiveDialogFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
 			<CharacterDialogArea top="0" left="0" bottom="-1" right="-1"/>
 			<CharacterDialogActiveScrollUp name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -264,7 +265,7 @@
 			</ButtonGroup>
 		</Button>
 	</Buttons>
-	<Fonts newId="2" versionedId="0" tableId="3">
+	<Fonts newId="3" versionedId="0" tableId="3">
 		<Font name="Default font" id="0" order="0" lastModified="-1" FontAlphabet="!&quot;#$%&amp;&apos;()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_´abcdefghijklmnopqrstuvwxyz{|}~ÜÄÖüäöß" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="graphics/font.png" Transparency="-1">
 				<position x="0" y="0"/>
@@ -374,6 +375,15 @@
 			</FontLetters>
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
+		</Font>
+		<Font name="Kenney" id="2" order="1" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="0" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="Font\Kenney Future Narrow.ttf" FontSize="15.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="3"/>
 		</Font>
 	</Fonts>
 	<Scenes newId="9" versionedId="2" tableId="4">
