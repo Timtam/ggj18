@@ -5239,7 +5239,7 @@
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="1" path="UI/Cursor_LookInteract.png" Transparency="2">
-					<position x="29" y="18"/>
+					<position x="10" y="22"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
