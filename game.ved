@@ -948,7 +948,7 @@
 			</SceneAudioBusses>
 		</Scene>
 	</Scenes>
-	<Points newId="79" versionedId="66" tableId="5">
+	<Points newId="82" versionedId="66" tableId="5">
 		<Point name="Point0" id="29" order="0" lastModified="-1" PointSize="-1">
 			<PointPosition x="942" y="587"/>
 			<PointRelations>
@@ -1147,14 +1147,14 @@
 			</PointRelations>
 		</Point>
 		<Point name="Point0" id="67" order="0" lastModified="3" PointSize="-1">
-			<PointPosition x="644" y="686"/>
+			<PointPosition x="603" y="680"/>
 			<PointRelations>
 				<Link parentLink="F" id="68" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="71" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point1" id="68" order="1" lastModified="3" PointSize="-1">
-			<PointPosition x="1094" y="948"/>
+			<PointPosition x="1158" y="988"/>
 			<PointRelations>
 				<Link parentLink="F" id="67" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="69" tableId="5" LinkAny="F"/>
@@ -1162,19 +1162,19 @@
 			</PointRelations>
 		</Point>
 		<Point name="Point2" id="69" order="2" lastModified="3" PointSize="-1">
-			<PointPosition x="1329" y="827"/>
+			<PointPosition x="1368" y="879"/>
 			<PointRelations>
 				<Link parentLink="F" id="68" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point3" id="70" order="3" lastModified="3" PointSize="-1">
-			<PointPosition x="958" y="1030"/>
+			<PointPosition x="980" y="1098"/>
 			<PointRelations>
 				<Link parentLink="F" id="68" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point4" id="71" order="4" lastModified="3" PointSize="-1">
-			<PointPosition x="831" y="593"/>
+			<PointPosition x="884" y="658"/>
 			<PointRelations>
 				<Link parentLink="F" id="67" tableId="5" LinkAny="F"/>
 			</PointRelations>
@@ -1217,6 +1217,18 @@
 			<PointPosition x="1066" y="1077"/>
 			<PointRelations>
 				<Link parentLink="F" id="75" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point5" id="80" order="5" lastModified="3" PointSize="-1">
+			<PointPosition x="1176" y="784"/>
+			<PointRelations>
+				<Link parentLink="F" id="81" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point6" id="81" order="6" lastModified="3" PointSize="-1">
+			<PointPosition x="1001" y="901"/>
+			<PointRelations>
+				<Link parentLink="F" id="80" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 	</Points>
@@ -1782,7 +1794,7 @@
 			<ObjectValue parentLink="F" id="1" tableId="20" LinkAny="F"/>
 		</Object>
 		<Object name="HandPos3" id="28" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="1081" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="3">
-			<ObjectName parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectName parentLink="T" id="249" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1824,7 +1836,7 @@
 			<ObjectValue parentLink="F" id="1" tableId="20" LinkAny="F"/>
 		</Object>
 		<Object name="HandPos5" id="30" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="1082" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="5">
-			<ObjectName parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectName parentLink="T" id="250" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1957,7 +1969,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 		<Object name="Prisoner 1" id="37" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="674" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
-			<ObjectName parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectName parentLink="T" id="251" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2271,10 +2283,10 @@
 		<Object name="Door to R02" id="49" order="0" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="212" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="506" y="339"/>
-				<point x="513" y="703"/>
-				<point x="676" y="627"/>
-				<point x="673" y="258"/>
+				<point x="472" y="344"/>
+				<point x="479" y="708"/>
+				<point x="642" y="632"/>
+				<point x="639" y="263"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2291,7 +2303,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="611" y="679"/>
+			<ObjectPosition x="611" y="685"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -2531,14 +2543,14 @@
 		<Object name="Sink" id="60" order="1" lastModified="3" ObjectDirection="45" ObjectCenter="433" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="241" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="879" y="384"/>
-				<point x="880" y="474"/>
-				<point x="991" y="508"/>
-				<point x="1007" y="435"/>
-				<point x="954" y="380"/>
+				<point x="894" y="408"/>
+				<point x="895" y="498"/>
+				<point x="1006" y="532"/>
+				<point x="1022" y="459"/>
+				<point x="969" y="404"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="87" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="165" tableId="7" LinkAny="F"/>
@@ -2552,7 +2564,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="913" y="643"/>
+			<ObjectPosition x="887" y="651"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -2589,10 +2601,10 @@
 		<Object name="Mirror" id="62" order="2" lastModified="3" ObjectDirection="45" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="246" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="913" y="192"/>
-				<point x="916" y="339"/>
-				<point x="1015" y="389"/>
-				<point x="1019" y="237"/>
+				<point x="929" y="218"/>
+				<point x="932" y="365"/>
+				<point x="1031" y="415"/>
+				<point x="1035" y="263"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2608,7 +2620,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="901" y="648"/>
+			<ObjectPosition x="881" y="651"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -5317,13 +5329,8 @@
 				<position x="1218" y="253"/>
 			</SpriteSprite>
 		</Sprite>
-		<Sprite name="Image" id="87" order="87" lastModified="3">
-			<SpriteSprite name="" pause="-1" path="Scenes/room06/R6_sink.png" Transparency="2">
-				<position x="880" y="194"/>
-			</SpriteSprite>
-		</Sprite>
 	</Sprites>
-	<Texts newId="249" versionedId="197" tableId="14">
+	<Texts newId="252" versionedId="197" tableId="14">
 		<Text name="Unnamed" id="29" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Splash" path="" int="0"/>
@@ -5849,6 +5856,21 @@
 				<text Text="Verflixt! Da kommt kein Tropfen Wasser raus." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="249" order="249" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="250" order="250" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="251" order="251" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="7" versionedId="6" tableId="15">
 		<Cursor name="Arrow" id="0" order="0" lastModified="-1">
@@ -6019,10 +6041,10 @@
 		</WaySystem>
 		<WaySystem name="Way system0" id="4" order="0" lastModified="3">
 			<WaySystemBorder>
-				<point x="285" y="822"/>
-				<point x="865" y="532"/>
-				<point x="1630" y="916"/>
-				<point x="1062" y="1205"/>
+				<point x="255" y="822"/>
+				<point x="835" y="532"/>
+				<point x="1600" y="916"/>
+				<point x="1032" y="1205"/>
 			</WaySystemBorder>
 			<WaySystemPoints>
 				<Link parentLink="T" id="67" tableId="5" LinkAny="F"/>
@@ -6030,6 +6052,8 @@
 				<Link parentLink="T" id="69" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="70" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="71" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="80" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="81" tableId="5" LinkAny="F"/>
 			</WaySystemPoints>
 		</WaySystem>
 		<WaySystem name="Way system0" id="5" order="0" lastModified="3">
