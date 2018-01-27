@@ -63,6 +63,7 @@
 		<GameLeftHoldAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameLeftHoldingAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameParticleContainerLinks>
+			<Link parentLink="T" id="2" tableId="23" LinkAny="F"/>
 		</GameParticleContainerLinks>
 		<GameLeftClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameActionTextFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
@@ -929,6 +930,8 @@
 				<Link parentLink="T" id="62" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="63" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="66" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="68" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="70" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -938,6 +941,7 @@
 			<SceneConditions>
 			</SceneConditions>
 			<SceneActions>
+				<Link parentLink="T" id="192" tableId="7" LinkAny="F"/>
 			</SceneActions>
 			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1249,7 +1253,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="68" versionedId="43" tableId="6">
+	<Objects newId="71" versionedId="43" tableId="6">
 		<Object name="Start game (active)" id="0" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="356" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="188" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2298,7 +2302,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Door to R02" id="49" order="2" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Door to R02" id="49" order="5" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="212" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="472" y="344"/>
@@ -2560,7 +2564,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Sink" id="60" order="1" lastModified="3" ObjectDirection="45" ObjectCenter="433" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Sink" id="60" order="3" lastModified="3" ObjectDirection="45" ObjectCenter="433" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="241" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="894" y="408"/>
@@ -2618,7 +2622,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Mirror" id="62" order="3" lastModified="3" ObjectDirection="45" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Mirror" id="62" order="6" lastModified="3" ObjectDirection="45" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="246" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="929" y="218"/>
@@ -2646,7 +2650,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Soap" id="63" order="0" lastModified="3" ObjectDirection="-1" ObjectCenter="466" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Soap" id="63" order="2" lastModified="3" ObjectDirection="-1" ObjectCenter="466" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="252" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="940" y="445"/>
@@ -2733,7 +2737,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Dude" id="66" order="4" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Dude" id="66" order="7" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="261" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1190" y="429"/>
@@ -2769,8 +2773,51 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="Water" id="68" order="4" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="272" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="54" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="54" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Steam" id="70" order="1" lastModified="3" ObjectDirection="-1" ObjectCenter="920" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="274" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="2" tableId="23" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="191" versionedId="125" tableId="7">
+	<Actions newId="193" versionedId="125" tableId="7">
 		<Action name="Left click" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3909,8 +3956,15 @@
 				<Link parentLink="T" id="389" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="At beginning of scene" id="192" order="0" lastModified="3" ActionExecutionType="31">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="390" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="390" versionedId="265" tableId="8">
+	<ActionParts newId="393" versionedId="265" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4935,8 +4989,12 @@
 			<ActionPartLink parentLink="F" id="65" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Play animation &apos;Water&apos;" id="390" order="0" lastModified="3" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="54" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="54" versionedId="41" tableId="9">
+	<Animations newId="57" versionedId="41" tableId="9">
 		<Animation name="up_right" id="4" order="0" lastModified="3" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="45" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5459,6 +5517,26 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="Water" id="54" order="0" lastModified="3" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="100" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="Scenes/room06/R6_wasser1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="Scenes/room06/R6_wasser2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="24" versionedId="19" tableId="10">
 		<Condition name="Condition0" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
@@ -5812,7 +5890,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="272" versionedId="197" tableId="14">
+	<Texts newId="275" versionedId="197" tableId="14">
 		<Text name="Unnamed" id="29" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Splash" path="" int="0"/>
@@ -6448,6 +6526,16 @@
 				<text Text="Jetzt nichts wie raus hier!" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="272" order="272" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="274" order="274" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="8" versionedId="6" tableId="15">
 		<Cursor name="Arrow" id="0" order="0" lastModified="-1">
@@ -6542,7 +6630,12 @@
 	</Values>
 	<Particles newId="0" versionedId="-1" tableId="22">
 	</Particles>
-	<ParticleContainers newId="0" versionedId="-1" tableId="23">
+	<ParticleContainers newId="3" versionedId="-1" tableId="23">
+		<ParticleContainer name="Steam" id="2" order="1" lastModified="3" ParticleContainerCameraZPosition="-3.000000" ParticleContainerCameraZoom="0.666667" ParticleContainerLeadTime="0" ParticleContainerSettings="{warmup=100,creationRate=100,maximum=1000,transferMode=&quot;blend&quot;,images={&quot;vispath:Scenes/room06/particle/steam0.png&quot;,&quot;vispath:Scenes/room06/particle/steam1.png&quot;,&quot;vispath:Scenes/room06/particle/steam2.png&quot;,},imageChoice=&quot;rnd&quot;,emitter={emitterType=&quot;circle&quot;,center={1150.000000,700.000000},length=1000.000000,angle=0,sizeX=0,sizeY=0,radius=350.000000,innerRadius=0,duration=1.000000,loops=0,directionToRotation=false,directionToRotationOffset=0,emissionDirection={0,0,-10000,0,3.140000},visibility={0,0.200000,-10000,0,0.600000},velocity={0,0.555553,-10000,0,0},life={0,5.000000,-10000,0,6.000000},size={0,40.000011,-10000,0,88.888900},spin={0,0,-10000,0,0},rotation={0,0,-10000,0,6.280000},angularVelocity={0,0,-10000,0,0},motionRandomness={0,0,-10000,0,0},weight={0,0,-10000,0,0},velocityOverLife={0,1.000000},angularVelocityOverLife={0,1.000000},motionRandomnessOverLife={0,1.000000},sizeOverLife={0,1.000000},spinOverLife={0,1.000000},weightOverLife={0,1.000000},visibilityOverLife={0,0,0.100000,1.000000,0.899999,1.000000,1.000000,0},numberOfEmitted={0,5.000000},colorOverLife={0,0xffffff}}}">
+			<ParticleContainerParticles>
+			</ParticleContainerParticles>
+			<ParticleContainerPreviewScene parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ParticleContainer>
 	</ParticleContainers>
 	<CommentSetEntries newId="1" versionedId="0" tableId="27">
 		<CommentSetEntry name="Comment" id="0" order="0" lastModified="-1">
@@ -6550,7 +6643,7 @@
 			<CommentSetEntryCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</CommentSetEntry>
 	</CommentSetEntries>
-	<AnimationFrames newId="1" versionedId="-1" tableId="28">
+	<AnimationFrames newId="35" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="6" versionedId="3" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1">
