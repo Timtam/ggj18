@@ -31,6 +31,8 @@
 			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="15" LinkAny="F"/>
 			<Link parentLink="T" id="2" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="15" LinkAny="F"/>
 		</GameCursors>
 		<GameFirstCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		<GameStandardLanguage parentLink="F" id="0" tableId="18" LinkAny="F"/>
@@ -1187,7 +1189,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="22" versionedId="20" tableId="9">
+	<Animations newId="26" versionedId="20" tableId="9">
 		<Animation name="front" id="0" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1328,7 +1330,7 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/cur_arrow.png" Transparency="-1">
+				<sprite name="" pause="-1" path="UI/Cursor_Arrow.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -1345,7 +1347,7 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="graphics/cur_arrow.png" Transparency="-1">
+				<sprite name="" pause="0" path="UI/Cursor_Arrow.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -1427,6 +1429,68 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="00_Zettel" id="21" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="22" order="22" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="UI/Cursor_Right.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="63" y="16"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="23" order="23" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="24" order="24" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="UI/Cursor_Left.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="16"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="25" order="25" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
@@ -1527,12 +1591,12 @@
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="27" order="27" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Scenes/room01/room01_bed.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Scenes/room01/R1_bed.png" Transparency="2">
 				<position x="783" y="715"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="28" order="28" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Scenes/room01/room01_desk.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Scenes/room01/R1_desk.png" Transparency="2">
 				<position x="408" y="598"/>
 			</SpriteSprite>
 		</Sprite>
@@ -1674,18 +1738,26 @@
 			</TextTextLanguages>
 		</Text>
 	</Texts>
-	<Cursors newId="3" versionedId="2" tableId="15">
+	<Cursors newId="5" versionedId="2" tableId="15">
 		<Cursor name="Arrow" id="0" order="0" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="10" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="11" tableId="9" LinkAny="F"/>
 		</Cursor>
-		<Cursor name="Walk to" id="1" order="1" lastModified="-1">
+		<Cursor name="Walk to" id="1" order="3" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="14" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="15" tableId="9" LinkAny="F"/>
 		</Cursor>
-		<Cursor name="Look at" id="2" order="2" lastModified="-1">
+		<Cursor name="Look at" id="2" order="4" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="18" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="19" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="Exit Right" id="3" order="1" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="22" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="23" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="Exit Left" id="4" order="2" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="24" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="25" tableId="9" LinkAny="F"/>
 		</Cursor>
 	</Cursors>
 	<CommentSets newId="1" versionedId="0" tableId="16">
@@ -1739,7 +1811,7 @@
 			<CommentSetEntryCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</CommentSetEntry>
 	</CommentSetEntries>
-	<AnimationFrames newId="0" versionedId="-1" tableId="28">
+	<AnimationFrames newId="4" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="3" versionedId="0" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1">
