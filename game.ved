@@ -6,6 +6,7 @@
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="5" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="6" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="8" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
@@ -373,7 +374,7 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="7" versionedId="2" tableId="4">
+	<Scenes newId="9" versionedId="2" tableId="4">
 		<Scene name="Start menu" id="0" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -406,7 +407,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="Raum 1" id="1" order="5" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Room01" id="1" order="5" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Scenes/room01/room01.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -415,6 +416,7 @@
 				<Link parentLink="T" id="11" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="13" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="14" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="15" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -495,8 +497,37 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
+		<Scene name="Room02" id="8" order="6" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Scenes/room02/room02.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="43" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="16" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+				<Link parentLink="T" id="2" tableId="29" LinkAny="F"/>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="2" tableId="29" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+		</Scene>
 	</Scenes>
-	<Points newId="40" versionedId="7" tableId="5">
+	<Points newId="64" versionedId="7" tableId="5">
 		<Point name="Point0" id="29" order="0" lastModified="-1" PointSize="-1">
 			<PointPosition x="942" y="587"/>
 			<PointRelations>
@@ -504,10 +535,11 @@
 			</PointRelations>
 		</Point>
 		<Point name="Point1" id="30" order="1" lastModified="-1" PointSize="-1">
-			<PointPosition x="803" y="684"/>
+			<PointPosition x="767" y="681"/>
 			<PointRelations>
 				<Link parentLink="F" id="29" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="31" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="62" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point2" id="31" order="2" lastModified="-1" PointSize="-1">
@@ -515,7 +547,7 @@
 			<PointRelations>
 				<Link parentLink="F" id="30" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="32" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="38" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="63" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point3" id="32" order="3" lastModified="-1" PointSize="-1">
@@ -548,7 +580,7 @@
 			</PointRelations>
 		</Point>
 		<Point name="Point7" id="36" order="7" lastModified="-1" PointSize="-1">
-			<PointPosition x="824" y="690"/>
+			<PointPosition x="778" y="683"/>
 			<PointRelations>
 				<Link parentLink="F" id="34" tableId="5" LinkAny="F"/>
 			</PointRelations>
@@ -559,21 +591,123 @@
 				<Link parentLink="F" id="34" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point9" id="38" order="9" lastModified="-1" PointSize="-1">
-			<PointPosition x="668" y="714"/>
+		<Point name="Point1" id="45" order="1" lastModified="-1" PointSize="-1">
+			<PointPosition x="582" y="784"/>
 			<PointRelations>
-				<Link parentLink="F" id="31" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="39" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="46" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="49" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="50" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point10" id="39" order="10" lastModified="-1" PointSize="-1">
-			<PointPosition x="790" y="677"/>
+		<Point name="Point2" id="46" order="2" lastModified="-1" PointSize="-1">
+			<PointPosition x="744" y="662"/>
 			<PointRelations>
-				<Link parentLink="F" id="38" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="45" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point0" id="49" order="3" lastModified="-1" PointSize="-1">
+			<PointPosition x="356" y="680"/>
+			<PointRelations>
+				<Link parentLink="F" id="45" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point3" id="50" order="4" lastModified="-1" PointSize="-1">
+			<PointPosition x="790" y="902"/>
+			<PointRelations>
+				<Link parentLink="F" id="45" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="51" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="52" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point4" id="51" order="5" lastModified="-1" PointSize="-1">
+			<PointPosition x="612" y="1058"/>
+			<PointRelations>
+				<Link parentLink="F" id="50" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point5" id="52" order="6" lastModified="-1" PointSize="-1">
+			<PointPosition x="1080" y="1030"/>
+			<PointRelations>
+				<Link parentLink="F" id="50" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="53" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="54" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point6" id="53" order="7" lastModified="-1" PointSize="-1">
+			<PointPosition x="1216" y="904"/>
+			<PointRelations>
+				<Link parentLink="F" id="52" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point7" id="54" order="8" lastModified="-1" PointSize="-1">
+			<PointPosition x="1582" y="1274"/>
+			<PointRelations>
+				<Link parentLink="F" id="52" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="55" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="56" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point8" id="55" order="9" lastModified="-1" PointSize="-1">
+			<PointPosition x="1710" y="1144"/>
+			<PointRelations>
+				<Link parentLink="F" id="54" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point9" id="56" order="10" lastModified="-1" PointSize="-1">
+			<PointPosition x="2078" y="1502"/>
+			<PointRelations>
+				<Link parentLink="F" id="54" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="57" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="58" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point10" id="57" order="11" lastModified="-1" PointSize="-1">
+			<PointPosition x="2184" y="1378"/>
+			<PointRelations>
+				<Link parentLink="F" id="56" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point11" id="58" order="12" lastModified="-1" PointSize="-1">
+			<PointPosition x="2266" y="1630"/>
+			<PointRelations>
+				<Link parentLink="F" id="56" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="59" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="60" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point12" id="59" order="13" lastModified="-1" PointSize="-1">
+			<PointPosition x="2038" y="1770"/>
+			<PointRelations>
+				<Link parentLink="F" id="58" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point13" id="60" order="14" lastModified="-1" PointSize="-1">
+			<PointPosition x="2486" y="1748"/>
+			<PointRelations>
+				<Link parentLink="F" id="58" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="61" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point14" id="61" order="15" lastModified="-1" PointSize="-1">
+			<PointPosition x="2650" y="1616"/>
+			<PointRelations>
+				<Link parentLink="F" id="60" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point9" id="62" order="9" lastModified="-1" PointSize="-1">
+			<PointPosition x="682" y="720"/>
+			<PointRelations>
+				<Link parentLink="F" id="30" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point10" id="63" order="10" lastModified="-1" PointSize="-1">
+			<PointPosition x="682" y="726"/>
+			<PointRelations>
+				<Link parentLink="F" id="31" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="15" versionedId="4" tableId="6">
+	<Objects newId="18" versionedId="4" tableId="6">
 		<Object name="Start game (active)" id="0" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="356" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="7" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -767,7 +901,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Table" id="14" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="844" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Table" id="14" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="776" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="41" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -788,8 +922,62 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="Door to R02" id="15" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="44" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="660" y="307"/>
+				<point x="818" y="229"/>
+				<point x="815" y="587"/>
+				<point x="665" y="668"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="27" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="28" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="753" y="636"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Door to R01" id="16" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="45" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="234" y="349"/>
+				<point x="237" y="704"/>
+				<point x="389" y="638"/>
+				<point x="386" y="272"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="29" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="30" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="342" y="675"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="27" versionedId="11" tableId="7">
+	<Actions newId="32" versionedId="11" tableId="7">
 		<Action name="Left click" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -880,8 +1068,36 @@
 				<Link parentLink="T" id="40" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Double click (immediate)" id="27" order="0" lastModified="-1" ActionExecutionType="13">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="41" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;Walk to&apos; executed" id="28" order="1" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="43" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;Walk to&apos; executed" id="29" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="44" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Double click (immediate)" id="30" order="1" lastModified="-1" ActionExecutionType="13">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="45" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="41" versionedId="11" tableId="8">
+	<ActionParts newId="50" versionedId="11" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -952,6 +1168,22 @@
 		</ActionPart>
 		<ActionPart name="Execute script &apos;&apos;" id="40" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;&apos;Walk to&apos; executed&apos;" id="41" order="0" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="28" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene &apos;Room02&apos;" id="43" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="315" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene &apos;Room01&apos;" id="44" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="315" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="15" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;&apos;Walk to&apos; executed&apos;" id="45" order="0" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="29" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -1305,7 +1537,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="42" versionedId="22" tableId="14">
+	<Texts newId="50" versionedId="22" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -1426,6 +1658,21 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="43" order="43" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="44" order="44" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="45" order="45" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="3" versionedId="2" tableId="15">
 		<Cursor name="Arrow" id="0" order="0" lastModified="-1">
@@ -1494,11 +1741,11 @@
 	</CommentSetEntries>
 	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
-	<WaySystems newId="2" versionedId="0" tableId="29">
+	<WaySystems newId="3" versionedId="0" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1">
 			<WaySystemBorder>
 				<point x="938" y="539"/>
-				<point x="569" y="719"/>
+				<point x="572" y="719"/>
 				<point x="680" y="779"/>
 				<point x="538" y="846"/>
 				<point x="777" y="962"/>
@@ -1516,8 +1763,33 @@
 				<Link parentLink="T" id="35" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="36" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="37" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="38" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="39" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="62" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="63" tableId="5" LinkAny="F"/>
+			</WaySystemPoints>
+		</WaySystem>
+		<WaySystem name="Way system0" id="2" order="0" lastModified="-1">
+			<WaySystemBorder>
+				<point x="18" y="822"/>
+				<point x="586" y="538"/>
+				<point x="2988" y="1738"/>
+				<point x="2426" y="2026"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+				<Link parentLink="T" id="45" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="46" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="49" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="50" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="51" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="52" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="53" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="54" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="55" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="56" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="57" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="58" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="59" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="60" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="61" tableId="5" LinkAny="F"/>
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
@@ -1535,9 +1807,9 @@
 		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
 		</InterfaceClass>
 	</InterfaceClasses>
-	<ActionAreas newId="0" versionedId="-1" tableId="32">
+	<ActionAreas newId="1" versionedId="-1" tableId="32">
 	</ActionAreas>
-	<AreaActions newId="0" versionedId="-1" tableId="33">
+	<AreaActions newId="1" versionedId="-1" tableId="33">
 	</AreaActions>
 	<Shaders newId="0" versionedId="-1" tableId="36">
 	</Shaders>
