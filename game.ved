@@ -423,6 +423,7 @@
 			</SceneConditions>
 			<SceneActions>
 				<Link parentLink="T" id="25" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="26" tableId="7" LinkAny="F"/>
 			</SceneActions>
 			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -493,57 +494,64 @@
 			</SceneAudioBusses>
 		</Scene>
 	</Scenes>
-	<Points newId="37" versionedId="7" tableId="5">
+	<Points newId="38" versionedId="7" tableId="5">
 		<Point name="Point0" id="29" order="0" lastModified="-1" PointSize="-1">
-			<PointPosition x="535" y="575"/>
+			<PointPosition x="942" y="587"/>
 			<PointRelations>
 				<Link parentLink="F" id="30" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point1" id="30" order="1" lastModified="-1" PointSize="-1">
-			<PointPosition x="332" y="702"/>
+			<PointPosition x="803" y="684"/>
 			<PointRelations>
 				<Link parentLink="F" id="29" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="31" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point2" id="31" order="2" lastModified="-1" PointSize="-1">
-			<PointPosition x="349" y="779"/>
+			<PointPosition x="777" y="782"/>
 			<PointRelations>
 				<Link parentLink="F" id="30" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="32" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point3" id="32" order="3" lastModified="-1" PointSize="-1">
-			<PointPosition x="270" y="852"/>
+			<PointPosition x="683" y="839"/>
 			<PointRelations>
 				<Link parentLink="F" id="31" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="33" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point4" id="33" order="4" lastModified="-1" PointSize="-1">
-			<PointPosition x="358" y="909"/>
+			<PointPosition x="781" y="895"/>
 			<PointRelations>
 				<Link parentLink="F" id="32" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="34" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point5" id="34" order="5" lastModified="-1" PointSize="-1">
-			<PointPosition x="742" y="697"/>
+			<PointPosition x="1170" y="699"/>
 			<PointRelations>
 				<Link parentLink="F" id="33" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="35" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="36" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="37" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point6" id="35" order="6" lastModified="-1" PointSize="-1">
-			<PointPosition x="1028" y="841"/>
+			<PointPosition x="1424" y="829"/>
 			<PointRelations>
 				<Link parentLink="F" id="34" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point7" id="36" order="7" lastModified="-1" PointSize="-1">
-			<PointPosition x="541" y="579"/>
+			<PointPosition x="824" y="690"/>
+			<PointRelations>
+				<Link parentLink="F" id="34" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point8" id="37" order="8" lastModified="-1" PointSize="-1">
+			<PointPosition x="955" y="592"/>
 			<PointRelations>
 				<Link parentLink="F" id="34" tableId="5" LinkAny="F"/>
 			</PointRelations>
@@ -716,14 +724,14 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="516" y="709"/>
+			<ObjectPosition x="917" y="729"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="26" versionedId="11" tableId="7">
+	<Actions newId="27" versionedId="11" tableId="7">
 		<Action name="Left click" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -807,8 +815,15 @@
 				<Link parentLink="T" id="37" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="At beginning of scene" id="26" order="1" lastModified="-1" ActionExecutionType="31">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="40" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="39" versionedId="11" tableId="8">
+	<ActionParts newId="41" versionedId="11" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -874,6 +889,10 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="End of cutscene" id="37" order="3" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script &apos;&apos;" id="40" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -1400,14 +1419,14 @@
 	<WaySystems newId="2" versionedId="0" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1">
 			<WaySystemBorder>
-				<point x="538" y="550"/>
-				<point x="276" y="675"/>
-				<point x="298" y="782"/>
-				<point x="173" y="850"/>
-				<point x="366" y="951"/>
-				<point x="773" y="748"/>
-				<point x="1011" y="879"/>
-				<point x="1104" y="828"/>
+				<point x="938" y="547"/>
+				<point x="676" y="672"/>
+				<point x="698" y="779"/>
+				<point x="573" y="847"/>
+				<point x="766" y="948"/>
+				<point x="1173" y="745"/>
+				<point x="1411" y="876"/>
+				<point x="1504" y="825"/>
 			</WaySystemBorder>
 			<WaySystemPoints>
 				<Link parentLink="T" id="29" tableId="5" LinkAny="F"/>
@@ -1418,6 +1437,7 @@
 				<Link parentLink="T" id="34" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="35" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="36" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="37" tableId="5" LinkAny="F"/>
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
