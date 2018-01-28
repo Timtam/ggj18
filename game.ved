@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<VisionaireAdventure projectType="0" revision="4" version="190">
-	<Game name="" id="1" order="1" lastModified="1" GameId="4098" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="1" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1">
+<VisionaireAdventure projectType="0" revision="5" version="190">
+	<Game name="" id="1" order="1" lastModified="4" GameId="4098" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1">
 		<GameSceneLinks>
 			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
@@ -12,6 +12,7 @@
 			<Link parentLink="T" id="13" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="14" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="15" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="16" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
@@ -50,10 +51,12 @@
 		<GameWindowResolution x="1920" y="1080"/>
 		<GameCursors>
 			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
-			<Link parentLink="T" id="3" tableId="15" LinkAny="F"/>
-			<Link parentLink="T" id="4" tableId="15" LinkAny="F"/>
 			<Link parentLink="T" id="5" tableId="15" LinkAny="F"/>
 			<Link parentLink="T" id="6" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="7" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="8" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="9" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="10" tableId="15" LinkAny="F"/>
 		</GameCursors>
 		<GameFirstCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		<GameStandardLanguage parentLink="F" id="0" tableId="18" LinkAny="F"/>
@@ -349,7 +352,7 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
 		</Interface>
-		<Interface name="Light" id="3" order="3" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="4" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+		<Interface name="Light" id="3" order="3" lastModified="5" InterfaceScrollStepSize="1" InterfaceDisplacement="4" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="T">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</InterfaceSprite>
@@ -736,7 +739,7 @@
 			<FontShadowOffset x="1" y="3"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="16" versionedId="14" tableId="4">
+	<Scenes newId="17" versionedId="16" tableId="4">
 		<Scene name="Start menu" id="0" order="1" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -770,7 +773,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="Room01" id="1" order="3" lastModified="3" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Room01" id="1" order="3" lastModified="5" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Scenes/room01/room01.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -978,7 +981,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="Room04" id="13" order="8" lastModified="3" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Room04" id="13" order="9" lastModified="3" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Scenes/room04/room04.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1014,7 +1017,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="Room06" id="14" order="10" lastModified="3" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Room06" id="14" order="11" lastModified="3" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Scenes/room06/room06.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1051,7 +1054,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="Room05" id="15" order="9" lastModified="4" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Room05" id="15" order="10" lastModified="4" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Scenes/room05/room05.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1085,8 +1088,35 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
+		<Scene name="Puzzle02" id="16" order="8" lastModified="4" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="384" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+		</Scene>
 	</Scenes>
-	<Points newId="87" versionedId="83" tableId="5">
+	<Points newId="87" versionedId="86" tableId="5">
 		<Point name="Point0" id="29" order="0" lastModified="-1" PointSize="-1">
 			<PointPosition x="942" y="587"/>
 			<PointRelations>
@@ -1401,7 +1431,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="85" versionedId="79" tableId="6">
+	<Objects newId="85" versionedId="84" tableId="6">
 		<Object name="Start game (active)" id="0" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="356" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="188" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -3174,6 +3204,7 @@
 				<Link parentLink="T" id="218" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="219" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="220" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="221" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -3188,7 +3219,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="221" versionedId="212" tableId="7">
+	<Actions newId="222" versionedId="221" tableId="7">
 		<Action name="Left click" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4598,8 +4629,15 @@
 				<Link parentLink="T" id="499" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Double click (immediate)" id="221" order="3" lastModified="4" ActionExecutionType="13">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="500" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="500" versionedId="481" tableId="8">
+	<ActionParts newId="501" versionedId="500" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4676,12 +4714,12 @@
 			<ActionPartLink parentLink="F" id="29" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="50" order="2" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Up Left&apos;" id="50" order="2" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="7" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Right&apos;" id="52" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="3" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Down Right&apos;" id="52" order="0" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="10" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="53" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5092,8 +5130,8 @@
 			<ActionPartLink parentLink="F" id="9" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="209" order="1" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Up Left&apos;" id="209" order="1" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="7" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="211" order="0" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5104,8 +5142,8 @@
 			<ActionPartLink parentLink="F" id="41" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="215" order="1" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Down Left&apos;" id="215" order="1" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="9" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="216" order="0" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5212,8 +5250,8 @@
 			<ActionPartLink parentLink="T" id="207" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="280" order="1" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Down Left&apos;" id="280" order="1" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="9" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="281" order="0" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5224,8 +5262,8 @@
 			<ActionPartLink parentLink="F" id="49" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="284" order="1" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Up Left&apos;" id="284" order="1" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="7" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="285" order="0" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5252,8 +5290,8 @@
 			<ActionPartLink parentLink="T" id="216" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="292" order="1" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Down Left&apos;" id="292" order="1" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="9" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="293" order="0" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5264,8 +5302,8 @@
 			<ActionPartLink parentLink="F" id="52" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="296" order="1" lastModified="3" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Down Left&apos;" id="296" order="1" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="9" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Switch to scene &apos;Room02&apos;" id="298" order="0" lastModified="3" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="45" ActionPartAltInt2="0" ActionPartString="">
@@ -5300,11 +5338,11 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sound &apos;tear_down_poster.ogg&apos; abspielen" id="307" order="3" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room1/tear_down_poster.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;tear_down_poster.ogg&apos;" id="307" order="3" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room1/tear_down_poster.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause für 3 Sekunden" id="308" order="5" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 3 seconds" id="308" order="5" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5644,11 +5682,11 @@
 			<ActionPartLink parentLink="T" id="280" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sound &apos;tear_down_poster.ogg&apos; abspielen" id="398" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room1/tear_down_poster.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;tear_down_poster.ogg&apos;" id="398" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room1/tear_down_poster.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause für 3 Sekunden" id="399" order="2" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 3 seconds" id="399" order="2" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5964,8 +6002,8 @@
 			<ActionPartLink parentLink="F" id="211" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Right&apos;" id="482" order="0" lastModified="4" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="3" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Down Right&apos;" id="482" order="0" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="10" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="483" order="0" lastModified="4" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -6024,8 +6062,8 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set cursor &apos;Exit Left&apos;" id="497" order="0" lastModified="4" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+		<ActionPart name="Set cursor &apos;Exit Up Left&apos;" id="497" order="0" lastModified="5" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="7" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;[empty]&apos;" id="498" order="0" lastModified="4" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -6036,8 +6074,12 @@
 			<ActionPartLink parentLink="F" id="81" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Call action &apos;&apos;Walk to&apos; executed&apos;" id="500" order="0" lastModified="4" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="220" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="75" versionedId="74" tableId="9">
+	<Animations newId="83" versionedId="73" tableId="9">
 		<Animation name="up_right" id="4" order="0" lastModified="3" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="45" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6141,98 +6183,6 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="00_Start note" id="21" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="Unnamed" id="22" order="22" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="200" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="0" path="UI/Cursor_Right.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="9952" path="UI/Cursor_Right1.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-23856" path="UI/Cursor_Right2.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="1" path="UI/Cursor_Right3.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="0" path="UI/Cursor_Right4.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="0" path="UI/Cursor_Right5.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="63" y="16"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="Unnamed" id="23" order="23" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="Unnamed" id="24" order="24" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="200" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="0" path="UI/Cursor_Left.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="0" path="UI/Cursor_Left1.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="0" path="UI/Cursor_Left2.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="18688" path="UI/Cursor_Left3.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="0" path="UI/Cursor_Left4.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="6091" path="UI/Cursor_Left5.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="16"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="Unnamed" id="25" order="25" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
@@ -6810,8 +6760,132 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="Unnamed" id="75" order="75" lastModified="5" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="UI/Cursor_up_left.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="76" order="76" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="77" order="77" lastModified="5" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="97" path="UI/Cursor_up_right.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="43" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="78" order="78" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="79" order="79" lastModified="5" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="UI/Cursor_down_left.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="22"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="80" order="80" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="81" order="81" lastModified="5" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="UI/Cursor_down_right.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="43" y="22"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="82" order="82" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
-	<Conditions newId="35" versionedId="32" tableId="10">
+	<Conditions newId="35" versionedId="34" tableId="10">
 		<Condition name="Condition0" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -7155,7 +7229,7 @@
 			<DialogPartAltText parentLink="T" id="368" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="97" versionedId="94" tableId="13">
+	<Sprites newId="97" versionedId="96" tableId="13">
 		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -7462,7 +7536,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="384" versionedId="375" tableId="14">
+	<Texts newId="385" versionedId="384" tableId="14">
 		<Text name="Unnamed" id="29" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Splash" path="" int="0"/>
@@ -8493,19 +8567,16 @@
 				<text Text="Uff. Gut, dass hier Wäsche liegt." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="384" order="384" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
-	<Cursors newId="7" versionedId="7" tableId="15">
+	<Cursors newId="11" versionedId="6" tableId="15">
 		<Cursor name="Arrow" id="0" order="0" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="10" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="11" tableId="9" LinkAny="F"/>
-		</Cursor>
-		<Cursor name="Exit Right" id="3" order="4" lastModified="-1">
-			<CursorActiveAnimation parentLink="T" id="22" tableId="9" LinkAny="F"/>
-			<CursorInactiveAnimation parentLink="T" id="23" tableId="9" LinkAny="F"/>
-		</Cursor>
-		<Cursor name="Exit Left" id="4" order="5" lastModified="-1">
-			<CursorActiveAnimation parentLink="T" id="24" tableId="9" LinkAny="F"/>
-			<CursorInactiveAnimation parentLink="T" id="25" tableId="9" LinkAny="F"/>
 		</Cursor>
 		<Cursor name="Look" id="5" order="3" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="26" tableId="9" LinkAny="F"/>
@@ -8514,6 +8585,22 @@
 		<Cursor name="LookInteract" id="6" order="1" lastModified="3">
 			<CursorActiveAnimation parentLink="T" id="28" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="29" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="Exit Up Left" id="7" order="6" lastModified="5">
+			<CursorActiveAnimation parentLink="T" id="75" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="76" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="Exit Up Right" id="8" order="7" lastModified="5">
+			<CursorActiveAnimation parentLink="T" id="77" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="78" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="Exit Down Left" id="9" order="8" lastModified="5">
+			<CursorActiveAnimation parentLink="T" id="79" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="80" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="Exit Down Right" id="10" order="9" lastModified="5">
+			<CursorActiveAnimation parentLink="T" id="81" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="82" tableId="9" LinkAny="F"/>
 		</Cursor>
 	</Cursors>
 	<CommentSets newId="1" versionedId="0" tableId="16">
@@ -8656,9 +8743,9 @@
 			<CommentSetEntryCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</CommentSetEntry>
 	</CommentSetEntries>
-	<AnimationFrames newId="0" versionedId="34" tableId="28">
+	<AnimationFrames newId="5" versionedId="-1" tableId="28">
 	</AnimationFrames>
-	<WaySystems newId="7" versionedId="5" tableId="29">
+	<WaySystems newId="7" versionedId="6" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1">
 			<WaySystemBorder>
 				<point x="938" y="539"/>
