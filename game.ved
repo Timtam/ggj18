@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <VisionaireAdventure projectType="0" revision="9" version="190">
-	<Game name="" id="1" order="1" lastModified="4" GameId="4098" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1">
+	<Game name="" id="1" order="1" lastModified="4" GameId="4098" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="E:\bin\transcape.vis" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="12;general/webp;5;false;13;general/scale;5;false;14;general/scaleX;4;1280;14;general/scaleY;3;720;19;windows/versionCode;7;1.0.0.1;18;windows/changeIcon;4;true;22;windows/changeManifest;4;true;" GameSmoothScrolling="F" GameSaveNameOffsetY="-1">
 		<GameSceneLinks>
 			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
@@ -5636,7 +5636,7 @@
 				<Link parentLink="T" id="679" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Bei Beginn der Kulisse" id="247" order="0" lastModified="-1" ActionExecutionType="31">
+		<Action name="At beginning of scene" id="247" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -9409,7 +9409,7 @@
 			<ActionPartLink parentLink="T" id="438" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show scene &apos;Credits&apos;" id="894" order="4" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show scene &apos;Credits&apos;" id="894" order="5" lastModified="9" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="19" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9429,7 +9429,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End of cutscene" id="899" order="5" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End of cutscene" id="899" order="4" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
