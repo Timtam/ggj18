@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<VisionaireAdventure projectType="0" revision="8" version="190">
+<VisionaireAdventure projectType="0" revision="9" version="190">
 	<Game name="" id="1" order="1" lastModified="4" GameId="4098" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1">
 		<GameSceneLinks>
 			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
@@ -316,7 +316,7 @@
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
 	</Characters>
-	<Interfaces newId="5" versionedId="3" tableId="1">
+	<Interfaces newId="5" versionedId="4" tableId="1">
 		<Interface name="Interface of game character" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -771,7 +771,7 @@
 			<FontShadowOffset x="1" y="3"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="22" versionedId="16" tableId="4">
+	<Scenes newId="22" versionedId="21" tableId="4">
 		<Scene name="Start menu" id="0" order="1" lastModified="7" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="UI/Main Menu.png" Transparency="2">
 				<position x="0" y="0"/>
@@ -1586,7 +1586,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="106" versionedId="100" tableId="6">
+	<Objects newId="106" versionedId="105" tableId="6">
 		<Object name="Start game (active)" id="0" order="1" lastModified="7" ObjectDirection="-1" ObjectCenter="464" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="188" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -3758,7 +3758,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="253" versionedId="240" tableId="7">
+	<Actions newId="253" versionedId="252" tableId="7">
 		<Action name="Left click" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4521,6 +4521,9 @@
 			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="282" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="734" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="735" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="736" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="135" order="0" lastModified="3" ActionExecutionType="1">
@@ -4591,6 +4594,9 @@
 			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="294" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="737" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="738" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="739" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="145" order="0" lastModified="3" ActionExecutionType="1">
@@ -5462,21 +5468,21 @@
 				<Link parentLink="T" id="733" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Mausbewegung in Objektbereich" id="249" order="0" lastModified="-1" ActionExecutionType="1">
+		<Action name="Cursor enters object area" id="249" order="0" lastModified="-1" ActionExecutionType="1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="709" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Mausbewegung aus Objektbereich" id="250" order="1" lastModified="-1" ActionExecutionType="2">
+		<Action name="Cursor leaves object area" id="250" order="1" lastModified="-1" ActionExecutionType="2">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="710" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Walk to&apos; angewandt" id="251" order="2" lastModified="-1" ActionExecutionType="6">
+		<Action name="&apos;Walk to&apos; executed" id="251" order="2" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -5488,7 +5494,7 @@
 				<Link parentLink="T" id="716" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Doppelklick (sofort)" id="252" order="3" lastModified="-1" ActionExecutionType="13">
+		<Action name="Double click (immediate)" id="252" order="3" lastModified="-1" ActionExecutionType="13">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -5496,7 +5502,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="734" versionedId="597" tableId="8">
+	<ActionParts newId="740" versionedId="733" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6117,7 +6123,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Switch to scene &apos;Room06&apos;" id="282" order="0" lastModified="3" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="315" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Switch to scene &apos;Room06&apos;" id="282" order="1" lastModified="3" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="315" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="49" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6157,7 +6163,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Switch to scene &apos;Room04&apos;" id="294" order="0" lastModified="3" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="45" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Switch to scene &apos;Room04&apos;" id="294" order="1" lastModified="3" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="45" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="52" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7569,27 +7575,27 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Zu Kulisse &apos;Room01&apos; wechseln" id="711" order="4" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="315" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Switch to scene &apos;Room01&apos;" id="711" order="4" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="315" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="15" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Zu Kulisse &apos;Blackscreen&apos; wechseln" id="712" order="1" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Switch to scene &apos;Blackscreen&apos;" id="712" order="1" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="103" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sound &apos;laundrey_chute_climb.ogg&apos; abspielen" id="713" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room5/laundrey_chute_climb.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;laundrey_chute_climb.ogg&apos;" id="713" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room5/laundrey_chute_climb.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause für 9 Sekunden" id="714" order="3" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="9" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 9 seconds" id="714" order="3" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="9" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Beginn von Zwischensequenz" id="715" order="0" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Begin of cutscene" id="715" order="0" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Ende von Zwischensequenz" id="716" order="5" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End of cutscene" id="716" order="5" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7661,8 +7667,32 @@
 			<ActionPartLink parentLink="T" id="429" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="If condition &apos;Light on?&apos; is true" id="734" order="0" lastModified="9" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="19" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Else" id="735" order="2" lastModified="9" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Mary: Da drin brauch ich Licht." id="736" order="3" lastModified="9" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="430" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;Light on?&apos; is true" id="737" order="0" lastModified="9" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="19" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Else" id="738" order="2" lastModified="9" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Mary: Da drin brauch ich Licht." id="739" order="3" lastModified="9" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="431" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="89" versionedId="83" tableId="9">
+	<Animations newId="89" versionedId="88" tableId="9">
 		<Animation name="up_right" id="4" order="0" lastModified="7" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="45" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -8562,7 +8592,7 @@
 			</AnimationPauses>
 		</Animation>
 	</Animations>
-	<Conditions newId="48" versionedId="45" tableId="10">
+	<Conditions newId="48" versionedId="47" tableId="10">
 		<Condition name="Condition0" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -8964,7 +8994,7 @@
 			<DialogPartAltText parentLink="T" id="368" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="115" versionedId="109" tableId="13">
+	<Sprites newId="115" versionedId="114" tableId="13">
 		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -9341,7 +9371,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="430" versionedId="406" tableId="14">
+	<Texts newId="432" versionedId="429" tableId="14">
 		<Text name="Unnamed" id="29" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Splash" path="" int="0"/>
@@ -10537,6 +10567,16 @@
 				<text Text="Meine erste Nacht auf Hawaii habe ich mir echt anders vorgestellt!" path="dialogs/intro/IM1_2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="430" order="430" lastModified="9">
+			<TextTextLanguages>
+				<text Text="Da drin brauch ich Licht." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="431" order="431" lastModified="9">
+			<TextTextLanguages>
+				<text Text="Da drin brauch ich Licht." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="11" versionedId="10" tableId="15">
 		<Cursor name="Arrow" id="0" order="0" lastModified="-1">
@@ -10685,7 +10725,7 @@
 		<Language name="Deutsch" id="0" order="0" lastModified="-1">
 		</Language>
 	</Languages>
-	<Values newId="17" versionedId="15" tableId="20">
+	<Values newId="17" versionedId="16" tableId="20">
 		<Value name="Hand Position" id="1" order="0" lastModified="-1" ValueInt="1" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="" ValueFloat="1.000000">
 		</Value>
 		<Value name="Goal Position" id="2" order="1" lastModified="-1" ValueInt="6" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="" ValueFloat="6.000000">
@@ -10736,7 +10776,7 @@
 	</CommentSetEntries>
 	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
-	<WaySystems newId="8" versionedId="6" tableId="29">
+	<WaySystems newId="8" versionedId="7" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1">
 			<WaySystemBorder>
 				<point x="938" y="539"/>
