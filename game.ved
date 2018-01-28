@@ -748,7 +748,7 @@
 			<FontShadowOffset x="1" y="3"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="17" versionedId="16" tableId="4">
+	<Scenes newId="18" versionedId="16" tableId="4">
 		<Scene name="Start menu" id="0" order="1" lastModified="7" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="UI/Main Menu.png" Transparency="2">
 				<position x="0" y="0"/>
@@ -4764,7 +4764,7 @@
 				<Link parentLink="T" id="380" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;08_Bucket&apos; abgelegt" id="188" order="4" lastModified="3" ActionExecutionType="3">
+		<Action name="&apos;08_Bucket&apos; dropped" id="188" order="4" lastModified="3" ActionExecutionType="3">
 			<ActionFixture parentLink="F" id="55" tableId="6" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -8544,7 +8544,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="412" versionedId="406" tableId="14">
+	<Texts newId="413" versionedId="406" tableId="14">
 		<Text name="Unnamed" id="29" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Splash" path="" int="0"/>
