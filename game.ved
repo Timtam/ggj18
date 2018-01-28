@@ -132,8 +132,8 @@
 			</LoadingStatusSprite>
 		</Loading>
 	</Loadings>
-	<Characters newId="5" versionedId="3" tableId="0">
-		<Character name="Mary" id="0" order="0" lastModified="-1" CharacterWalkingSound="sounds/footsteps.ogg" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+	<Characters newId="4" versionedId="3" tableId="0">
+		<Character name="Mary" id="0" order="3" lastModified="-1" CharacterWalkingSound="sounds/footsteps.ogg" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="185" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
@@ -180,7 +180,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="Mr. Icks" id="1" order="2" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Mr. Icks" id="1" order="1" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="293" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -223,7 +223,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="Prisoner 1" id="2" order="3" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Prisoner 1" id="2" order="2" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="292" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -267,7 +267,7 @@
 			<CharacterActionDestPosition x="779" y="345"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="Prisoner 2" id="3" order="5" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Prisoner 2" id="3" order="4" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="298" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -883,7 +883,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="Room02" id="8" order="8" lastModified="6" SceneBackgroundMusic="Sounds\Ambience\dungeon.ogg" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="5" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Room02" id="8" order="8" lastModified="6" SceneBackgroundMusic="Sounds/Ambience/dungeon.ogg" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="5" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Scenes/room02/room02.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -3337,6 +3337,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 				<Link parentLink="T" id="14" tableId="20" LinkAny="F"/>
+				<Link parentLink="T" id="16" tableId="20" LinkAny="F"/>
 			</ObjectValues>
 			<ObjectPosition x="0" y="0"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3510,7 +3511,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Tile22" id="97" order="9" lastModified="6" ObjectDirection="-1" ObjectCenter="1041" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Tile22" id="97" order="10" lastModified="6" ObjectDirection="-1" ObjectCenter="1041" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="398" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1148" y="711"/>
@@ -3538,7 +3539,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Confirm" id="98" order="10" lastModified="6" ObjectDirection="-1" ObjectCenter="623" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Confirm" id="98" order="11" lastModified="6" ObjectDirection="-1" ObjectCenter="623" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="402" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1721" y="484"/>
@@ -3564,7 +3565,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Cancel" id="99" order="11" lastModified="6" ObjectDirection="-1" ObjectCenter="615" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Cancel" id="99" order="12" lastModified="6" ObjectDirection="-1" ObjectCenter="615" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="403" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="62" y="477"/>
@@ -5131,6 +5132,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="526" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="629" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="642" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="643" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="644" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="645" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="At beginning of scene" id="223" order="0" lastModified="6" ActionExecutionType="31">
@@ -5169,6 +5175,13 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="561" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="626" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="638" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="639" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="640" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="641" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="674" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="675" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="228" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5176,6 +5189,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="562" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="630" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="646" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="647" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="648" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="649" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="229" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5183,6 +5201,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="563" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="632" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="650" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="651" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="652" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="653" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="230" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5190,6 +5213,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="564" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="627" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="654" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="655" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="656" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="657" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="231" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5197,6 +5225,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="565" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="633" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="658" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="659" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="660" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="661" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="232" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5204,6 +5237,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="566" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="634" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="662" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="663" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="664" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="665" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="233" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5211,6 +5249,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="567" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="631" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="666" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="667" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="668" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="669" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="234" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5218,6 +5261,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="568" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="628" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="670" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="671" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="672" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="673" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="235" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5265,6 +5313,9 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="584" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="635" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="636" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="637" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="241" order="0" lastModified="7" ActionExecutionType="1">
@@ -5303,7 +5354,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="626" versionedId="597" tableId="8">
+	<ActionParts newId="676" versionedId="597" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5900,11 +5951,11 @@
 			<ActionPartLink parentLink="F" id="43" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition &apos;Box open?&apos; to true" id="275" order="9" lastModified="6" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition &apos;Box open?&apos; to true" id="275" order="12" lastModified="6" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="45" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Remove item &apos;03_Broken key&apos; from character &apos;Current character&apos;" id="276" order="4" lastModified="6" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Remove item &apos;03_Broken key&apos; from character &apos;Current character&apos;" id="276" order="6" lastModified="6" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="43" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6880,27 +6931,27 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End of cutscene" id="555" order="8" lastModified="6" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End of cutscene" id="555" order="11" lastModified="6" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;junction_box_repair.ogg&apos;" id="556" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room3/junction_box_repair.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Sound &apos;repair.ogg&apos; abspielen" id="556" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/repair.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Wait until sound &apos;junction_box_repair.ogg&apos; is finished" id="557" order="3" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/Room3/junction_box_repair.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Warte bis Sound &apos;repair.ogg&apos; beendet ist" id="557" order="3" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/Junction Box/repair.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;junction_box_open.ogg&apos;" id="558" order="5" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room3/junction_box_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Sound &apos;open.ogg&apos; abspielen" id="558" order="7" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Wait until sound &apos;junction_box_open.ogg&apos; is finished" id="559" order="7" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/Room3/junction_box_open.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Warte bis Sound &apos;open.ogg&apos; beendet ist" id="559" order="8" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/Junction Box/open.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call script &apos;Puzzle02 Rotate&apos;" id="561" order="0" lastModified="-1" ActionPartCommand="137" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local obj = game.GameCurrentObject&lt;br/&gt;local rot = obj.ObjectValues[&apos;Rotation&apos;].ValueInt&lt;br/&gt;rot = (rot + 1) % 4&lt;br/&gt;obj.ObjectValues[&apos;Rotation&apos;].ValueInt = rot&lt;br/&gt;obj.ObjectRotation = math.pi / 2 * rot">
+		<ActionPart name="Skript &apos;Puzzle02 Rotate&apos; aufrufen" id="561" order="11" lastModified="-1" ActionPartCommand="137" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local obj = game.GameCurrentObject&lt;br/&gt;local rot = obj.ObjectValues[&apos;Rotation&apos;].ValueInt&lt;br/&gt;rot = (rot + 1) % 4&lt;br/&gt;obj.ObjectValues[&apos;Rotation&apos;].ValueInt = rot&lt;br/&gt;obj.ObjectRotation = math.pi / 2 * rot">
 			<ActionPartLink parentLink="F" id="1" tableId="30" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6972,11 +7023,11 @@
 			<ActionPartLink parentLink="T" id="405" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;light_on.ogg&apos;" id="584" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room3/light_on.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;light_on.ogg&apos;" id="584" order="3" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room3/light_on.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;&apos;Interact&apos; executed&apos;" id="585" order="10" lastModified="6" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;&apos;Interact&apos; executed&apos;" id="585" order="13" lastModified="6" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="111" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7068,8 +7119,208 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Sound &apos;turn_1.ogg&apos; abspielen" id="626" order="12" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_1.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_1.ogg&apos; abspielen" id="627" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_1.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_1.ogg&apos; abspielen" id="628" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_1.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_2.ogg&apos; abspielen" id="629" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_2.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_2.ogg&apos; abspielen" id="630" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_2.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_2.ogg&apos; abspielen" id="631" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_2.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_3.ogg&apos; abspielen" id="632" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_3.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_3.ogg&apos; abspielen" id="633" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_3.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;turn_3.ogg&apos; abspielen" id="634" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/turn_3.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="635" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Warte bis Sound &apos;&apos; beendet ist" id="636" order="1" lastModified="-1" ActionPartCommand="125" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause für 800 Millisekunden" id="637" order="2" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="800" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="638" order="13" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="639" order="14" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="640" order="15" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="641" order="16" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="642" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="643" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="644" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="645" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="646" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="647" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="648" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="649" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="650" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="651" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="652" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="653" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="654" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="655" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="656" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="657" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="658" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="659" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="660" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="661" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="662" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="663" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="664" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="665" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="666" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="667" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="668" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="669" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zufälligen Wert in &apos;Random1To3&apos; zwischen 1 und 3 setzen" id="670" order="2" lastModified="-1" ActionPartCommand="83" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Wert &apos;Random1To3&apos; = 2" id="671" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sound &apos;zap.ogg&apos; abspielen" id="672" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Junction Box/zap.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="673" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Beginn von Zwischensequenz" id="674" order="0" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende von Zwischensequenz" id="675" order="17" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="92" versionedId="83" tableId="9">
+	<Animations newId="88" versionedId="83" tableId="9">
 		<Animation name="up_right" id="4" order="0" lastModified="7" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="45" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7874,6 +8125,86 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="down_left" id="83" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="500" AnimationDirection="225" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Character/walk/FL02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Character/walk/FL03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="60" y="338"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="down_right" id="84" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="500" AnimationDirection="315" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Character/walk/FR02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Character/walk/FR03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="60" y="338"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="up_right" id="85" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="500" AnimationDirection="45" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Character/walk/BL02.png" Transparency="2">
+					<position x="0" y="6"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Character/walk/BL03.png" Transparency="2">
+					<position x="0" y="6"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="60" y="338"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="up_left" id="86" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="500" AnimationDirection="135" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Character/walk/BR02.png" Transparency="2">
+					<position x="0" y="5"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Character/walk/BR03.png" Transparency="2">
+					<position x="0" y="5"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="60" y="338"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="47" versionedId="45" tableId="10">
 		<Condition name="Condition0" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
@@ -8649,7 +8980,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="416" versionedId="406" tableId="14">
+	<Texts newId="415" versionedId="406" tableId="14">
 		<Text name="Unnamed" id="29" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Splash" path="" int="0"/>
@@ -8662,42 +8993,42 @@
 		</Text>
 		<Text name="Unnamed" id="37" order="37" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Was ist das denn? &quot;Die Sonne ist Dein Freund?!&quot; Was soll das denn bedeuten?" path="dialogs/1M1.ogg" int="0"/>
+				<text Text="Was ist das denn? &quot;Die Sonne ist Dein Freund?!&quot; Was soll das denn bedeuten?" path="dialogs/room01/1M1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="57" order="57" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hier komme ich so schnell wohl nicht wieder raus." path="dialogs/1M6.ogg" int="0"/>
+				<text Text="Hier komme ich so schnell wohl nicht wieder raus." path="dialogs/room01/1M6.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="58" order="58" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Wie unpassend für ein Gefängnis." path="dialogs/1M10.ogg" int="0"/>
+				<text Text="Wie unpassend für ein Gefängnis." path="dialogs/room01/1M10.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="59" order="59" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ein Poster mit der Aufschrift &quot;Atomkraft? Nein, danke!&quot;&lt;br/&gt;Was macht das denn hier?" path="dialogs/1M3.ogg" int="0"/>
+				<text Text="Ein Poster mit der Aufschrift &quot;Atomkraft? Nein, danke!&quot;&lt;br/&gt;Was macht das denn hier?" path="dialogs/room01/1M3.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="62" order="62" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Huch, hier hängt ja noch ein Zettel." path="dialogs/1M4.ogg" int="0"/>
+				<text Text="Huch, hier hängt ja noch ein Zettel." path="dialogs/room01/1M4.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="70" order="70" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Die wäre mir so nicht aufgefallen." path="dialogs/1M5.ogg" int="0"/>
+				<text Text="Die wäre mir so nicht aufgefallen." path="dialogs/room01/1M5.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="71" order="71" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hrg!" path="dialogs/1M7.ogg" int="0"/>
+				<text Text="Hrg!" path="dialogs/room01/1M7.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="72" order="72" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Pfuh! Was haben wir denn hier? Ein Funkgerät." path="dialogs/1M8.ogg" int="0"/>
+				<text Text="Pfuh! Was haben wir denn hier? Ein Funkgerät." path="dialogs/room01/1M8.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="73" order="73" lastModified="-1">
@@ -8707,12 +9038,12 @@
 		</Text>
 		<Text name="Unnamed" id="75" order="75" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Worst bed in my life! Selbst die Betten eines namhaften schwedischen Möbelgeschäfts sind bequemer..." path="dialogs/1M2.ogg" int="0"/>
+				<text Text="Worst bed in my life! Selbst die Betten eines namhaften schwedischen Möbelgeschäfts sind bequemer..." path="dialogs/room01/1M2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="76" order="76" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Schau Dir die Wände genauer an. Gezeichnet: ein Freund.&lt;br/&gt;PS: 2 4 ? 8 10" path="dialogs/1I1.ogg" int="0"/>
+				<text Text="Schau Dir die Wände genauer an. Gezeichnet: ein Freund.&lt;br/&gt;PS: 2 4 ? 8 10" path="dialogs/room01/1I1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="80" order="80" lastModified="-1">
@@ -8737,37 +9068,37 @@
 		</Text>
 		<Text name="Unnamed" id="107" order="107" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hallo? Ist da wer?" path="dialogs/1M9.ogg" int="0"/>
+				<text Text="Hallo? Ist da wer?" path="dialogs/room01/1M9.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="108" order="108" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hallo Mary. Möchtest Du hier raus?" path="dialogs/1I2_1.ogg" int="0"/>
+				<text Text="Hallo Mary. Möchtest Du hier raus?" path="dialogs/room01/1I2_1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="109" order="109" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Gut! Dann hör jetzt genau zu:" path="dialogs/1I2_2.ogg" int="0"/>
+				<text Text="Gut! Dann hör jetzt genau zu:" path="dialogs/room01/1I2_2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="110" order="110" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ich öffne nun Deine Zellentür. Ein anderer Insasse hat einem Wärter den Schlüssel gestohlen, der Dich hier rausbringt. " path="dialogs/1I2_3.ogg" int="0"/>
+				<text Text="Ich öffne nun Deine Zellentür. Ein anderer Insasse hat einem Wärter den Schlüssel gestohlen, der Dich hier rausbringt. " path="dialogs/room01/1I2_3.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="111" order="111" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hol ihn Dir, wir hören uns." path="dialogs/1I2_4.ogg" int="0"/>
+				<text Text="Hol ihn Dir, wir hören uns." path="dialogs/room01/1I2_4.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="113" order="113" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hallo? Ist da wer?" path="dialogs/1M9.ogg" int="0"/>
+				<text Text="Hallo? Ist da wer?" path="dialogs/room01/1M9.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="114" order="114" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hm, das hat nicht geklappt." path="dialogs/1M11.ogg" int="0"/>
+				<text Text="Hm, das hat nicht geklappt." path="dialogs/room01/1M11.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="130" order="130" lastModified="-1">
@@ -9833,9 +10164,13 @@
 			</CommentSetEntries>
 		</CommentSet>
 	</CommentSets>
-	<Outfits newId="5" versionedId="3" tableId="17">
+	<Outfits newId="4" versionedId="3" tableId="17">
 		<Outfit name="Outfit" id="0" order="0" lastModified="1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
 			<OutfitWalkAnimations>
+				<Link parentLink="T" id="83" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="84" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="85" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="86" tableId="9" LinkAny="F"/>
 			</OutfitWalkAnimations>
 			<OutfitTalkAnimations>
 			</OutfitTalkAnimations>
@@ -9939,7 +10274,7 @@
 		<Language name="Deutsch" id="0" order="0" lastModified="-1">
 		</Language>
 	</Languages>
-	<Values newId="16" versionedId="15" tableId="20">
+	<Values newId="17" versionedId="15" tableId="20">
 		<Value name="Hand Position" id="1" order="0" lastModified="-1" ValueInt="1" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="" ValueFloat="1.000000">
 		</Value>
 		<Value name="Goal Position" id="2" order="1" lastModified="-1" ValueInt="6" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="" ValueFloat="6.000000">
@@ -9969,6 +10304,8 @@
 		<Value name="Rotation" id="14" order="0" lastModified="6" ValueInt="2" ValueRandom="T" ValueRandomMin="0" ValueRandomMax="3" ValueString="" ValueFloat="2.000000">
 		</Value>
 		<Value name="RandomStart" id="15" order="2" lastModified="-1" ValueInt="1" ValueRandom="T" ValueRandomMin="1" ValueRandomMax="4" ValueString="" ValueFloat="1.000000">
+		</Value>
+		<Value name="Random1To3" id="16" order="1" lastModified="-1" ValueInt="3" ValueRandom="T" ValueRandomMin="1" ValueRandomMax="3" ValueString="" ValueFloat="3.000000">
 		</Value>
 	</Values>
 	<Particles newId="0" versionedId="-1" tableId="22">
