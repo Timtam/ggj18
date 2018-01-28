@@ -5157,7 +5157,6 @@
 				<Link parentLink="T" id="388" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="389" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="676" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="740" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="892" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="895" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
@@ -5630,7 +5629,7 @@
 				<Link parentLink="T" id="625" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Bei Beginn der Kulisse" id="246" order="0" lastModified="-1" ActionExecutionType="31">
+		<Action name="At beginning of scene" id="246" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -8310,7 +8309,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set character &apos;Mary&apos; to scene &apos;Current scene&apos; at position (328,917)" id="616" order="3" lastModified="7" ActionPartCommand="132" ActionPartPath="" ActionPartInt="328" ActionPartAltInt="917" ActionPartAltInt2="270" ActionPartString="">
+		<ActionPart name="Set character &apos;Mary&apos; to scene &apos;Current scene&apos; at position (328,917)" id="616" order="1" lastModified="9" ActionPartCommand="132" ActionPartPath="" ActionPartInt="328" ActionPartAltInt="917" ActionPartAltInt2="270" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -8318,7 +8317,7 @@
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Begin of cutscene" id="618" order="1" lastModified="7" ActionPartCommand="144" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Begin of cutscene" id="618" order="3" lastModified="7" ActionPartCommand="144" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -8542,7 +8541,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sound &apos;heavy_metal_door_open.ogg&apos; abspielen" id="676" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room3/heavy_metal_door_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;heavy_metal_door_open.ogg&apos;" id="676" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room3/heavy_metal_door_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -8797,10 +8796,6 @@
 		<ActionPart name="Mary: Da drin brauch ich Licht." id="739" order="3" lastModified="9" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="431" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Show scene &apos;Credits&apos;" id="740" order="6" lastModified="9" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="19" tableId="4" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Ende Wenn" id="741" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -9406,7 +9401,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Kulisse &apos;IcksCredits&apos; zeigen" id="892" order="4" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show scene &apos;IcksCredits&apos;" id="892" order="4" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="22" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9414,27 +9409,27 @@
 			<ActionPartLink parentLink="T" id="438" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Kulisse &apos;Credits&apos; zeigen" id="894" order="4" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show scene &apos;Credits&apos;" id="894" order="4" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="19" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Warte bis Sound &apos;heavy_metal_door_open.ogg&apos; beendet ist" id="895" order="3" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/Room3/heavy_metal_door_open.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Wait until sound &apos;heavy_metal_door_open.ogg&apos; is finished" id="895" order="3" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/Room3/heavy_metal_door_open.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sound &apos;jump_scare.ogg&apos; abspielen" id="896" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/jump_scare.ogg" ActionPartInt="30" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;jump_scare.ogg&apos;" id="896" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/jump_scare.ogg" ActionPartInt="30" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Warte bis Sound &apos;jump_scare.ogg&apos; beendet ist" id="897" order="3" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/jump_scare.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Wait until sound &apos;jump_scare.ogg&apos; is finished" id="897" order="3" lastModified="-1" ActionPartCommand="125" ActionPartPath="sounds/jump_scare.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Beginn von Zwischensequenz" id="898" order="0" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Begin of cutscene" id="898" order="0" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Ende von Zwischensequenz" id="899" order="5" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End of cutscene" id="899" order="5" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
