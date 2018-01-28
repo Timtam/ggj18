@@ -903,7 +903,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="Room02" id="8" order="9" lastModified="6" SceneBackgroundMusic="Sounds/Ambience/dungeon.ogg" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="5" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Room02" id="8" order="9" lastModified="9" SceneBackgroundMusic="Sounds/Ambience/dungeon.ogg" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="5" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Scenes/room02/room02.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -10574,12 +10574,12 @@
 		</Text>
 		<Text name="Unnamed" id="430" order="430" lastModified="9">
 			<TextTextLanguages>
-				<text Text="Da drin brauch ich Licht." path="" int="0"/>
+				<text Text="Da drin brauch ich Licht." path="Sounds/Room2/Brauche_Licht.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="431" order="431" lastModified="9">
 			<TextTextLanguages>
-				<text Text="Da drin brauch ich Licht." path="" int="0"/>
+				<text Text="Da drin brauch ich Licht." path="Sounds/Room2/Brauche_Licht.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
