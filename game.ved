@@ -4785,6 +4785,7 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="388" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="389" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="676" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="At beginning of scene" id="192" order="0" lastModified="3" ActionExecutionType="31">
@@ -5277,7 +5278,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="676" versionedId="675" tableId="8">
+	<ActionParts newId="677" versionedId="675" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5854,7 +5855,7 @@
 			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Add item &apos;04_Key&apos; to character &apos;Current character&apos;" id="270" order="1" lastModified="3" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Add item &apos;05_Key&apos; to character &apos;Current character&apos;" id="270" order="1" lastModified="8" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="44" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7228,6 +7229,10 @@
 		</ActionPart>
 		<ActionPart name="Ende von Zwischensequenz" id="675" order="17" lastModified="-1" ActionPartCommand="144" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show scene &apos;Credits&apos;" id="676" order="2" lastModified="8" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="19" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
