@@ -4958,6 +4958,7 @@
 				<Link parentLink="T" id="388" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="389" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="676" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="740" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="At beginning of scene" id="192" order="0" lastModified="3" ActionExecutionType="31">
@@ -5502,7 +5503,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="740" versionedId="733" tableId="8">
+	<ActionParts newId="741" versionedId="733" tableId="8">
 		<ActionPart name="Change condition &apos;Condition0&apos; to false" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6079,7 +6080,7 @@
 			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Add item &apos;05_Key&apos; to character &apos;Current character&apos;" id="270" order="1" lastModified="8" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Add item &apos;05_Key&apos; to character &apos;Current character&apos;" id="270" order="1" lastModified="9" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="44" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7435,7 +7436,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sound &apos;human_slipping_out.ogg&apos; abspielen" id="676" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room4/human_slipping_out.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;human_slipping_out.ogg&apos;" id="676" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="sounds/Room4/human_slipping_out.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7690,6 +7691,10 @@
 		<ActionPart name="Mary: Da drin brauch ich Licht." id="739" order="3" lastModified="9" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="431" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show scene &apos;Credits&apos;" id="740" order="2" lastModified="9" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="19" tableId="4" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="89" versionedId="88" tableId="9">
